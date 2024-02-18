@@ -1,0 +1,33 @@
+{
+  "name": "project_library",
+  "version": "1.0.0",
+  "description": "project library",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlevtinaMEC/project_library.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Alevtina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlevtinaMEC/project_library/issues"
+  },
+  "homepage": "https://github.com/AlevtinaMEC/project_library#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.56.0",
+    "rollup-plugin-import-css": "^3.4.0"
+  },
+  "dependencies": {
+    "on-change": "^5.0.1",
+    "rollup": "^4.12.0"
+  }
+}
